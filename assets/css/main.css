@@ -131,12 +131,15 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #b6fffc !important;
-			text-shadow: 0 0 15px #558, 0 0 20px #558, 0 0 25px #558;
+			color: #b2f5ef;
+			text-shadow: 0 0 5px #000, 0 0 7px #FFF;
+			backdrop-filter: blur(2px);
 		}
 
 			h2.alt strong {
-				color: #a6fffb !important;
+				color: #b2f5ef;
+				text-shadow: 0 0 5px #000, 0 0 5px #FFF;
+				backdrop-filter: blur(2px);
 			}
 
 	h3 {
@@ -206,6 +209,11 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
+		p.alt {
+			color: #FFF;
+			text-shadow: 0 0 1px #000, 0 0 3px #000, 0 0 5px #000, 0 0 7px #FFF;
+			backdrop-filter: blur(2px);
+		}
 
 	br.clear {
 		clear: both;
